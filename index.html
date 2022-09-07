@@ -9,7 +9,51 @@
 </head>
 
 <body>
+    <div class="body2">
+        <form class="form">
+            <h1 id="git">GIT</h1>
+            <h1>O QUE É?</h1>
+            <p>O Git é um sistema de controle de versão distribuído, o que significa que um clone local do projeto é um repositório de controle de versão completo. Esses repositórios locais totalmente funcionais facilitam o trabalho offline ou remotamente.
+                Os desenvolvedores confirmam seu trabalho localmente e, em seguida, sincronizam sua cópia do repositório com a cópia no servidor. Esse paradigma é diferente do controle de versão centralizado, no qual os clientes devem sincronizar o código
+                com um servidor antes de criar novas versões do código. A flexibilidade e a popularidade do Git fazem dele uma ótima opção para qualquer equipe. Muitos desenvolvedores e universitários já sabem como usar o Git. A comunidade de usuários
+                do Git criou recursos para treinar desenvolvedores e a popularidade do Git facilita a obtenção de ajuda quando necessário. Quase todos os ambientes de desenvolvimento têm suporte do Git e ferramentas de linha de comando git implementadas
+                em todos os principais sistemas operacionais.
+            </p>
+            <h1>HISTÓRIA DO GIT:</h1>
+            <p>O desenvolvimento do Git surgiu após vários desenvolvedores do kernel (núcleo) do Linux decidirem desistir de acessar ao sistema do BitKeeper, que é um software proprietário.[8] O acesso gratuito ao BitKeeper foi removido pelo detentor dos
+                direitos autorais, Larry McVoy, depois de acusar Andrew Tridgell de usar de engenharia reversa nos protocolos do BitKeeper, alegando violação da licença do mesmo. Tridgell demonstrou, em uma apresentação na Linux.Conf.Au, realizada em
+                2005, que o processo de engenharia reversa utilizado não foi mais do que simplesmente direcionar um telnet para a porta apropriada de um servidor BitKeeper e digitar "help" (ajuda).[9] Torvalds queria um sistema distribuído que ele pudesse
+                utilizar de forma similar ao BitKeeper (BK), mas nenhum dos sistemas livres disponíveis atendia suas necessidades, particularmente com relação à performance. Segue abaixo uma parte retirada de um e-mail, de 7 de Abril de 2005, escrito
+                enquanto desenvolvia seu primeiro protótipo.
+            </p>
+            <p>
+                O desenvolvimento do Git começou em 3 de Abril de 2005.[13] O projeto foi anunciado em 6 de Abril,[14] e tornou-se auto-hospedeiro no dia 7 de Abril.[13] A primeira mescla de arquivos (merge) em múltiplos ramos (branches) foi realizado em 18 de Abril.[15]
+                Torvalds alcançou seus objetivos de performance; em 29 de Abril, o recém-nascido Git se tornou referência ao registrar patches para a árvore de desenvolvimento do kernel do Linux na taxa de 6,7 por segundo.[16] No dia 16 de Junho, a entrega
+                do kernel 2.6.12 foi gerenciada pelo Git.[17] Mesmo que fortemente influenciado pelo BitKeeper, Torvalds deliberadamente tentou evitar abordagens tradicionais, levando a um design único.[18] Ele desenvolveu o sistema até que fosse possível
+                sua utilização por usuários técnicos, entregando então a manutenção do software para Junio Hamano, um dos principais colaboradores do projeto, em 16 de Julho de 2005.[19] Hamano foi responsável pela entrega da versão 1.0 em 21 de dezembro
+                de 2005,[20] e continua como responsável pela manutenção do mesmo.
+            </p>
 
+            <h1>Para que serve o Git?</h1>
+            <p>Antes de começarmos a trabalhar de fato com o Git, vamos entender pra que ele serve. Então o que é este tal de sistema de controle de versões? Vamos imaginar que você é uma pessoa que desenvolve softwares e tem um projeto em seu computador.
+                Obviamente, você fará alterações no código, porém, você trabalha em uma equipe, portanto, além de você existem outras pessoas que estão desenvolvendo neste mesmo projeto. Cada um possui uma cópia do projeto nas suas respectivas máquinas
+                locais, para que seja possível fazer alterações, e ver tudo funcionando direitinho antes de enviar para outra pessoa. No entanto, como todos estão trabalhando no mesmo projeto, essas pessoas precisam entender que modificações estão sendo
+                feitas em paralelo. Então, quando você realizar alguma alteração, por exemplo, é necessário notificar o restante da equipe. Porém, quando você faz esta alteração e tenta enviar aos outros, seja por meio de um pendrive, por e-mail, salvando
+                no Dropbox, pode acontecer deles já terem feito uma alteração também, ou terem feito outras modificações anteriormente.
+            </p>
+            <h1>como funciona?</h1>
+            <p>
+                Como Git funciona na prática? Como o Git opera de forma majoritariamente local, é possível trabalhar mesmo off-line. Talvez depois você precise fazer uns ajustes, se o time fizer alterações conflitantes com as suas edições no código, mas essa mesclagem
+                de versões e branches também é simples de fazer no Git (ouvi relatos do tamanho de deixar qualquer desenvolvedor de cabelo em pé sobre a dificuldade que era era resolver esse tipo de conflito pré-Git 😱). O legal de tudo ser bem local
+                também é a liberdade de errar: trabalhou no código, mas deu ruim, criou um bug absurdo e não conseguiu resolver? Tudo bem, é só não enviar isso para o resto do time. O Git estimula o desenvolvedor a ter boas práticas, como abrir branches
+                para trabalhar. Primeiro de tudo: criar uma branch é muito rápido. Uma linha de comando e pronto, você já está no seu próprio braço do projeto e tem liberdade para criar e alterar qualquer coisa, com a tranquilidade de saber que só irá
+                para o código master se você quiser. Você também pode ir e voltar, é fácil e rápido sair da branch que você está e ir a outra, uma antiga, por exemplo, para atualizar ou resolver algo. A real é que o Git faz muita coisa e facilita demais
+                a vida do programador, mas vou falar sobre o que eu acho mais mágico é que te permite viajar no tempo. É fantástica a simplicidade do Git para se navegar pelas diferentes versões do seu projeto, reverter para alguma instância específica,
+                ou até, para projetos longos, ver como estavam as coisas há alguns meses. Dá para fazer pesquisas no git log para, por exemplo, ver commits feitos em uma determinada janela de tempo ou por pessoas específicas. Para quem curte uma ferramenta
+                gráfica, o GitGraph, extensão para o VS Code, é muito legal nesse aspecto, ilustra bem toda a timeline e as diferentes branches e mesclagens com a master:
+            </p>
+        </form>
+    </div>
 </body>
 
 </html>
